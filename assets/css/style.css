@@ -611,6 +611,10 @@ img{
         width: var(--nav-width);
     }
 
+    .nav_logo, .nav_toggle{
+        font-size: var(--medium-font-size);
+    }
+
     .about_container,
     .projects_container,
     .contact_container, 
