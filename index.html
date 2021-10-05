@@ -275,14 +275,14 @@
 
 			<div class="contact_container bd-grid">
 				<div class="contact_div">
-				<form class="contact_forms">
+				<form class="contact_forms" action="message.php" method="POST">
 				    <div class="contact_inputs">
-						<input type="text" name="user_name" placeholder="Name" class="contact_input">
+						<input type="text" name="name" placeholder="Name" class="contact_input">
 						<input type="email" name="email" placeholder="Email" class="contact_input">
 					</div>
 
 
-					<textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact_input"></textarea>
+					<textarea name="message" id="" cols="0" rows="10" placeholder="Message" class="contact_input"></textarea>
 
 					<input type="submit" name="submitbtn" value="Send Message" class="button contact_button">
 				</form>
